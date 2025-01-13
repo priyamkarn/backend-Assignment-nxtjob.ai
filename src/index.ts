@@ -210,7 +210,9 @@ app.use(express.json());
 
 // Swagger UI setup
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
-
+app.get('/', (req, res) => {
+  res.send('Welcome to the Job Board API');
+});
 // Routes
 app.use('/api', jobRoutes);
 app.use(errorHandler);
