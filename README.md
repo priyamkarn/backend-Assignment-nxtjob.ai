@@ -40,7 +40,7 @@ This is a backend application for managing job-related operations. It uses Node.
 
    for vitest
 
-   go to src/testing npx vitest
+   go to src/testing directory and type npx vitest in terminal
 
    
    
