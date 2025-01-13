@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")  // Ensure the URL is referencing the env variable
+}
+
+model Job {
+  id          Int     @id @default(autoincrement())
+  title       String
+  company     String
+  location    String
+  salary      Float
+  description String
+}
