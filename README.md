@@ -54,9 +54,23 @@ PORT="YOUR PORT TO USE"
 NODE_ENV=development
 ---
 ![Image Alt Text](https://github.com/priyamkarn/backend-Assignment-nxtjob.ai/blob/ec2429400a3660b76ab2d91bfe54497d58440767/Screenshot%20(128).png)
+GET /jobs: Retrieve all postings.
+---
 ![Image Alt Text](https://github.com/priyamkarn/backend-Assignment-nxtjob.ai/blob/8e1bc405a11481f2cebfca05f0c14fb70d8ce541/Screenshot%20(129).png)
+GET /jobs/:id: Retrieve a single posting by ID
+---
 ![Image Alt Text](https://github.com/priyamkarn/backend-Assignment-nxtjob.ai/blob/8e1bc405a11481f2cebfca05f0c14fb70d8ce541/Screenshot%20(130).png)
+PUT /jobs/:id: Update a posting by ID.
+---
 ![Image Alt Text](https://github.com/priyamkarn/backend-Assignment-nxtjob.ai/blob/8e1bc405a11481f2cebfca05f0c14fb70d8ce541/Screenshot%20(131).png)
+sql db
+---
 ![Image Alt Text](https://github.com/priyamkarn/backend-Assignment-nxtjob.ai/blob/8e1bc405a11481f2cebfca05f0c14fb70d8ce541/Screenshot%20(133).png)
+Running Docker
+---
 ![Image Alt Text](https://github.com/priyamkarn/backend-Assignment-nxtjob.ai/blob/8e1bc405a11481f2cebfca05f0c14fb70d8ce541/Screenshot%20(134).png)
+Running Vitest
+---
 ![Image Alt Text](https://github.com/priyamkarn/backend-Assignment-nxtjob.ai/blob/8e1bc405a11481f2cebfca05f0c14fb70d8ce541/Screenshot%20(135).png)
+API Documentating using swagger
+---
