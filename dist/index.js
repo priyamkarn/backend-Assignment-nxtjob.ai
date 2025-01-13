@@ -4,7 +4,7 @@ import swaggerUi from 'swagger-ui-express';
 import jobRoutes from './routes/job.routes.js';
 import { errorHandler } from './middleware/error.middleware.js';
 const app = express();
-const PORT = process.env.PORT || 4500;
+const PORT = process.env.PORT || 8000;
 // Complete Swagger specification
 const swaggerSpec = {
     openapi: '3.0.0',
@@ -206,6 +206,15 @@ app.use(cors());
 app.use(express.json());
 // Swagger UI setup
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.get('/', (req, res) => {
+    res.send('Welcome to the Job Board API');
+});
+app.get('/health', (req, res) => {
+    res.status(200).json({
+        status: 'ok',
+        timestamp: new Date().toISOString()
+    });
+});
 // Routes
 app.use('/api', jobRoutes);
 app.use(errorHandler);

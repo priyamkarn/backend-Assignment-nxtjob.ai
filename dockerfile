@@ -16,7 +16,7 @@ RUN npx prisma generate
 RUN npm run build
 
 # Expose port
-EXPOSE 3001
+EXPOSE 8000
 
 # Start the application
 CMD ["node", "dist/index.js"]
