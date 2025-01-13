@@ -5,7 +5,7 @@ import jobRoutes from './routes/job.routes.js';
 import { errorHandler } from './middleware/error.middleware.js';
 
 const app = express();
-const PORT = process.env.PORT || 4500;
+const PORT = process.env.PORT || 8000;
 
 // Complete Swagger specification
 const swaggerSpec = {
