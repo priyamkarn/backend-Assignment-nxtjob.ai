@@ -46,5 +46,10 @@ This is a backend application for managing job-related operations. It uses Node.
    
 .env variables
 DATABASE_URL="YOUR SQL DB URL"
+---
+
 PORT="YOUR PORT TO USE"
+---
+
 NODE_ENV=development
+---
