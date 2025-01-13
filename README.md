@@ -8,7 +8,7 @@ Api-Doc:https://yearning-doris-nxtjobai-cf89e3fa.koyeb.app/api-docs/
 
 ## Description
 
-This is a backend application for managing job-related operations. It uses Node.js, Express, and TypeScript, with Swagger documentation for the API and Prisma ORM for database interaction.
+This is a backend application for managing job-related operations. It uses Node.js, Express, and TypeScript, with Swagger documentation for the API and Prisma ORM with mysql for database interaction.
 
 ---
 
@@ -44,3 +44,7 @@ This is a backend application for managing job-related operations. It uses Node.
 
    
    
+.env variables
+DATABASE_URL="YOUR SQL DB URL"
+PORT="YOUR PORT TO USE"
+NODE_ENV=development
