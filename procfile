@@ -1,1 +1,11 @@
-web: node dist/index.js
+{
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

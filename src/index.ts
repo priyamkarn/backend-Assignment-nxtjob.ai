@@ -213,6 +213,12 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.get('/', (req, res) => {
   res.send('Welcome to the Job Board API');
 });
+app.get('/health', (req, res) => {
+  res.status(200).json({ 
+    status: 'ok',
+    timestamp: new Date().toISOString()
+  });
+});
 // Routes
 app.use('/api', jobRoutes);
 app.use(errorHandler);
