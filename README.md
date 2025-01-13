@@ -53,5 +53,4 @@ PORT="YOUR PORT TO USE"
 
 NODE_ENV=development
 ---
-![Image Alt Text]
-https://github.com/priyamkarn/backend-Assignment-nxtjob.ai/blob/ec2429400a3660b76ab2d91bfe54497d58440767/Screenshot%20(128).png
+![Image Alt Text](https://github.com/priyamkarn/backend-Assignment-nxtjob.ai/blob/ec2429400a3660b76ab2d91bfe54497d58440767/Screenshot%20(128).png)
